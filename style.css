@@ -1,0 +1,172 @@
+@font-face {
+    font-family: AlteHaas;
+    src: url(/fonts/Fonts/altehaasgroteskregular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+
+    color: white;
+    font-family: AlteHaas;
+    font-size: 2.5vh;
+}
+
+#websiteWrapper {
+    height: 100vh;
+}
+
+#navbar {
+    padding: 0 4vw;
+    display: flex;
+
+    height: 6vh;
+    background-color: rgb(27, 25, 25);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+    min-width: 250px;
+
+    p {
+        font-size: 2vh;
+        margin-right: 10px;
+    }
+}
+
+#icons {
+    display: flex;
+    justify-content: end;
+
+    align-items: center;
+    width: 50%;
+    min-width: 300px;
+
+    img {
+        margin-left: 3vw;
+    }
+}
+
+.navIcon {
+    height: 3vh;
+}
+
+#buttonDown{
+    height: 2vh;
+    width: 1.3vw;
+}
+
+#profileImg{
+    height: 6vh;
+}
+
+#bigLogo{
+    height: 4vh;
+    margin-right: 50px;
+}
+
+#highlight{
+
+    display: flex;
+    width: 100%;
+    height: 50vh;
+
+    margin-top: 2vh;
+}
+
+#highlightText{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 10vw;
+}
+
+#highlightTags{
+    display: flex;
+}
+
+#highlightTags p{
+    margin-right: 1vw;
+    margin-bottom: 4vh;
+    border: solid white 1px;
+}
+
+#highlightInfo{
+    margin: 1.5vh 0 3vh 0;
+}
+
+#highlightImgCard{
+
+    width: 50%;
+    padding-right: 4vw;
+}
+
+#highlightImg{
+    mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+
+    height: 100%;
+}
+
+
+#content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+    padding-left:4vw;
+    padding-top: 2vh;
+
+    height: 88vh
+}
+
+.row{
+    width: 100%;
+}
+
+.cardRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.card{
+    border: 1px solid black;
+    background-color: white;
+    flex-grow: 1;
+    height: 20vh;
+    margin-right: 5px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    margin-bottom: 2vh;
+}
+
+.header h2{
+    padding: 0 5vw;
+}
+
