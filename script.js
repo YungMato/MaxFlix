@@ -102,12 +102,17 @@ var projectsAr = [
 $( document ).ready(function() {
     
     loadProjects();
+    setUpEvents();
+
+
+});
+
+function setUpEvents(){
 
     $(".card").on("click", function(event) {
         highlightItem($(event)[0].target.attributes.value.nodeValue);
     });
-
-});
+}
 
 function loadProjects(){
     //select all cards on the pages and load in the project-images of the Project-Array
@@ -122,9 +127,9 @@ function loadProjects(){
     }
 }
 
+
 function highlightItem(cardId){
     // Fill in the information in the Highlightcard with the data from the clicked Card
-
     $(".highlight").attr("id","highlight");
 
     $("#highlightTitle")[0].innerHTML = projectsAr[cardId].name;
@@ -132,6 +137,10 @@ function highlightItem(cardId){
     $("#highlightDate")[0].innerHTML = projectsAr[cardId].date;
     $("#highlightInfo")[0].innerHTML = projectsAr[cardId].descr;
     $("#highlightImg")[0].src = projectsAr[cardId].img;
+    $("#highlightImg")[0].val() = "12";
+
+
+    console.log($("#highlightImg")[0]);
 
 
     $("#highlightTags").children().remove();
