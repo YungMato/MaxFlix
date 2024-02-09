@@ -18,28 +18,28 @@ var projectsAr = [
         tags:["Javascript","HTML","CSS","Jquery","API","Web-App"]
     },    
     {
-        name: "Password-Manager NR3",
-        match: "96% Match",
-        date: "2021",
-        descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/img/projectImg/exampleProject3.PNG",
-        tags:["C# ","WPF ","Encrypting ","Tag4 "]
-    },
-    {
-        name: "Password-Manager NR4",
-        match: "96% Match",
-        date: "2021",
-        descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/img/projectImg/exampleProject4.PNG",
-        tags:["C# ","WPF ","Encrypting ","Tag4 "]
-    },
-    {
-        name: "My first CV",
-        match: "81% Match",
-        date: "2021",
-        descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
+        name: "AD: Tired of just LOOKING at projects?",
+        match: "101% Match",
+        date: "for your company",
+        descr: "Contact me and WORK on a project together! If you are interested in more, click on the profile-picture in the top right corner.",
         img: "/img/projectImg/exampleProject5.PNG",
-        tags:["C# ","WPF ","Encrypting ","Tag4 "]
+        tags:["Open for work","Web-Development","Software-Engineering"]
+    },
+    {
+        name: "Blobby Feeder",
+        match: "81% Match",
+        date: "2023",
+        descr: "In this little Minigame was made in Unity. It is a simple labyrinth game, like the good old flash games back in the days. You try to navigate your little Blobby to his food, but beware of the danger that is waiting on you on the way",
+        img: "/img/projectImg/exampleProject3.PNG",
+        tags:["Unity","Game Engine","C#", "GameDev"]
+    },
+    {
+        name: "Landing Page: TinDog",
+        match: "89% Match",
+        date: "2021",
+        descr: "Trying to connect people with lovely dogs, TinDog ist the Number one Pet Shipment in the World. Note: This is a mockup landing page",
+        img: "/img/projectImg/exampleProject4.PNG",
+        tags:["HTML","CSS","Javascript","Jquery","WebDev"]
     },
     {
         name: "Password-Manager NR4",

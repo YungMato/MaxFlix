@@ -131,10 +131,11 @@ body {
 
 #highlightInfo{
     margin: 1.5vh 0 3vh 0;
+    width: 100%;
 }
 
 #highlightImgCard{
-
+    text-align: right;
     width: 50%;
 }
 
