@@ -77,16 +77,13 @@ body {
     width: 100%;
     margin-top: 2vh;
     height: 0;
+    cursor: pointer;
 }
 
 #highlight{
     height: 50vh;
     transition: 0.4s;
 
-}
-
-#highlight:hover{
-    cursor: pointer;
 }
 
 #highlightTitle{
