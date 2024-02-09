@@ -16,9 +16,9 @@ body {
     font-size: 2.5vh;
 }
 
-#websiteWrapper {
-    height: 100vh;
-}
+
+
+
 
 #navbar {
     padding: 0 4vw;
@@ -158,10 +158,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-
-    padding-left:4vw;
-    padding-top: 2vh;
+    padding: 2vh 4vw 0 4vw;
 
     height: 88vh
 }
@@ -180,8 +177,6 @@ body {
 }
 
 .card{
-    border: 1px solid black;
-    background-color: white;
     flex-grow: 1;
     height: 20vh;
     margin-right: 5px;
@@ -192,11 +187,19 @@ body {
 
 .card:hover{
     cursor: pointer;
+    transform: scale(130%);
+}
+
+#ad img{
+    border: solid white 0.5px;
+    border-radius: 3%;
 }
 
 .card img{
     height: 100%;
-    width: 100%;
+    width: 20vw;
+
+    border-radius: 3%;
 }
 
 .header{

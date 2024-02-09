@@ -1,0 +1,93 @@
+@font-face {
+    font-family: AlteHaas;
+    src: url(/fonts/Fonts/altehaasgroteskregular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+
+    color: white;
+    font-family: AlteHaas;
+    font-size: 2.5vh;
+}
+
+#watchImg{
+    left: 15%;
+    right: 15%;
+    height: 75vh;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+}
+
+#watchImg img {
+    height: 100%;
+}
+
+#websiteWrapper {
+    height: 98vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#menuBand {
+    display: flex;
+    width: 100%;
+
+    margin-top: 4vh;
+}
+
+.menuIcon {
+    width: 50%;
+    padding: 0 4vh;
+
+}
+
+.menuIcon img {
+    height: 4vh;
+}
+
+.menuIconImg {
+    cursor: pointer;
+}
+
+
+
+#preview {
+    background-color: rgb(27, 25, 25);
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    filter: grayscale(60%);
+    opacity: 0.4;
+}
+
+.previewPic {
+    border: solid black 0.5px;
+    height: 100%;
+    margin: 0 6px;
+
+}
+
+.previewPic:hover {
+    cursor: pointer;
+}
+
+#watchWrapper {
+    width: 100%;
+}
+
+.menuIcon:nth-child(2) {
+    text-align: right;
+}
