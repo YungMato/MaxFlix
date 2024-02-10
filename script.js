@@ -6,7 +6,7 @@ var projectsAr = [
         match: "96% Match",
         date: "2021",
         descr: "This was my first WPF-Project. This is a Desktop Application for storing your Passwords. This program generates random passwords, encrypts them and saves them in a local file. When needed, it decrypts them and and displays it in the program.",
-        img: "/projects/Img/project1_1.PNG",
+        img: "/projects/img/project0_1.PNG",
         tags:["C#","WPF",".NET","JSON","Encrypting"]
     },
     {
@@ -14,7 +14,7 @@ var projectsAr = [
         match: "97% Match",
         date: "2024",
         descr: "This is a Web-App for the trading-card game Magic: The Gathering. It includes all playcards for the playmode Planechase, all gathered from the Magic API. This App is optimized for a Tablet, but works on other Devices too.",
-        img: "/projects/Img/project2_1.PNG",
+        img: "/projects/img/project1_1.PNG",
         tags:["Javascript","HTML","CSS","Jquery","API","Web-App"]
     },    
     {
@@ -22,7 +22,7 @@ var projectsAr = [
         match: "101% Match",
         date: "for your company",
         descr: "Contact me and WORK on a project together! If you are interested in more, click on the profile-picture in the top right corner.",
-        img: "/projects/Img/ad.PNG",
+        img: "/projects/img/ad.PNG",
         tags:["Open for work","Web-Development","Software-Engineering"]
     },
     {
@@ -30,7 +30,7 @@ var projectsAr = [
         match: "81% Match",
         date: "2023",
         descr: "In this little Minigame was made in Unity. It is a simple labyrinth game, like the good old flash games back in the days. You try to navigate your little Blobby to his food, but beware of the danger that is waiting on you on the way",
-        img: "/projects/Img/project4_1.PNG",
+        img: "/projects/img/project3_1.PNG",
         tags:["Unity","Game Engine","C#", "GameDev"]
     },
     {
@@ -38,7 +38,7 @@ var projectsAr = [
         match: "89% Match",
         date: "2021",
         descr: "Trying to connect people with lovely dogs, TinDog is the Number one Pet Shipment in the World. Note: This is a mockup landing page",
-        img: "/projects/Img/project5_1.PNG",
+        img: "/projects/img/project4_1.PNG",
         tags:["HTML","CSS","Javascript","Jquery","WebDev"]
     },
     {
@@ -46,7 +46,7 @@ var projectsAr = [
         match: "93% Match",
         date: "2022",
         descr: "My first steps in 'Game-Development'. A simple Simon says game based on CSS and Javascript.",
-        img: "/projects/Img/project6_1.PNG",
+        img: "/projects/img/project5_1.PNG",
         tags:["HTML","CSS","Javascript","Jquery","WebDev"]
     },    
     {

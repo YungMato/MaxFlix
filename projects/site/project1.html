@@ -4,36 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maximilian Ellermann - MAXFLIX</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylePreview.css">
 </head>
 <body>
-    
-    <div id="websiteWrapper">
+    <div id="watchImg">
+        <img id="bigImg" src="../img/project1_1.png" alt="">
+    </div>
 
-        <div id="navbar">
-            <div id="logo">
-                <img id="bigLogo" src="/img/netflix_logo.png" alt="Logo">
-                <p>Browse</p>
-                <img class="navIcon" id="buttonDown" src="/img/down_Arrow.png">
+    <div id="websiteWrapper">
+        <div id="menuBand">
+            <div class="menuIcon">
+                <img class="menuIconImg" src="../../img/linker-pfeil.png" alt="" onclick="window.location.href = '../../index.html'">
             </div>
-            <div id="icons">
-                <img src="/img/lupe.png" class="navIcon">
-                <img src="/img/glocke.png" class="navIcon">
-                <img src="/img/profileimg.png" id="profileImg">
+            <div class="menuIcon">
+                <img class="menuIconImg" src="../../img/flagge.png" alt="">
             </div>
         </div>
-
-        <div id="watchWrapper">
-            <div id="watchImg">
-            </div>
-            <div id="previewPic">
-            </div>
+        <div id="preview">
+            <img src="../img/project1_1.png" alt="" class="previewPic active">
+            <img src="../img/project1_2.png" alt="" class="previewPic">
+            <img src="../img/project1_3.png" alt="" class="previewPic">
         </div>
 
     </div>
 
     
-    <script src="jquery-3.7.1.js"></script>
-    <script src="script.js"></script>
+    <script src="../../jquery-3.7.1.js"></script>
+    <script src="scriptPreview.js"></script>
 </body>
 </html>

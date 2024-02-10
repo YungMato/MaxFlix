@@ -20,13 +20,15 @@ body {
     left: 15%;
     right: 15%;
     height: 75vh;
+    width: 70vw;
     position: absolute;
+    z-index: -1;
 
     display: flex;
     justify-content: center;
 }
 
-#watchImg img {
+#bigImg {
     height: 100%;
 }
 
@@ -59,25 +61,39 @@ body {
     cursor: pointer;
 }
 
+.menuIcon:nth-child(1) img:hover{
+    content:url("../../img/linker-pfeil_grey.png");
+}
+
+.menuIcon:nth-child(2) img:hover{
+    content:url("../../img/flagge_red.png");
+}
+
 
 
 #preview {
-    background-color: rgb(27, 25, 25);
+    background-color: rgb(19, 18, 18);
     padding: 5px 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20vh;
-    filter: grayscale(60%);
-    opacity: 0.4;
 }
 
 .previewPic {
     border: solid black 0.5px;
     height: 100%;
     margin: 0 6px;
+    filter: grayscale(70%);
+    opacity: 0.8;
+}
 
+.active{
+    border: white 1px solid !important; 
+    filter: grayscale(0%);
+    opacity: 1;
+    transition: all 1s;
 }
 
 .previewPic:hover {
