@@ -6,7 +6,7 @@ var projectsAr = [
         match: "96% Match",
         date: "2021",
         descr: "This was my first WPF-Project. This is a Desktop Application for storing your Passwords. This program generates random passwords, encrypts them and saves them in a local file. When needed, it decrypts them and and displays it in the program.",
-        img: "/projects/img/project0_1.PNG",
+        img: "/projects/img/project0_1.png",
         tags:["C#","WPF",".NET","JSON","Encrypting"]
     },
     {
@@ -54,7 +54,7 @@ var projectsAr = [
         match: "96% Match",
         date: "2021",
         descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/Img/exampleProject7.PNG",
+        img: "/projects/img/exampleProject7.PNG",
         tags:["C# ","WPF ","Encrypting ","Tag4 "]
     },
     {
@@ -62,14 +62,14 @@ var projectsAr = [
         match: "96% Match",
         date: "2021",
         descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/Img/exampleProject8.PNG",
+        img: "/projects/img/exampleProject8.PNG",
         tags:["C# ","WPF ","Encrypting ","Tag4","Movie","TROLOLOL"]
     },    {
         name: "Password-Manager",
         match: "96% Match",
         date: "2021",
         descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/Img/exampleProject9.PNG",
+        img: "/projects/img/exampleProject9.PNG",
         tags:["C# ","WPF ","Encrypting ","Tag4 "]
     },
     {
@@ -77,7 +77,7 @@ var projectsAr = [
         match: "96% Match",
         date: "2021",
         descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/Img/exampleProject10.PNG",
+        img: "/projects/img/exampleProject10.PNG",
         tags:["C# ","WPF ","Encrypting ","Tag4 "]
     },    
     {
@@ -85,7 +85,7 @@ var projectsAr = [
         match: "96% Match",
         date: "2021",
         descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/Img/exampleProject11.PNG",
+        img: "/projects/img/exampleProject11.PNG",
         tags:["C# ","WPF ","Encrypting ","Tag4 "]
     },
     {
@@ -93,7 +93,7 @@ var projectsAr = [
         match: "96% Match",
         date: "2021",
         descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/Img/exampleProject12.PNG",
+        img: "/projects/img/exampleProject12.PNG",
         tags:["C# ","WPF ","Encrypting ","Tag4 "]
     } 
 ];

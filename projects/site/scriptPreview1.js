@@ -15,13 +15,13 @@ function setUpButtons(){
 
         switch (checkImgNumber($(this).attr("src"))) {
             case "1":
-                $("#bigImg").attr("src", projectSrc + "1.PNG");
+                $("#bigImg").attr("src", projectSrc + "1.png");
                 break;
             case "2":
-                $("#bigImg").attr("src", projectSrc + "2.PNG");
+                $("#bigImg").attr("src", projectSrc + "2.png");
                 break;
             case "3":
-                $("#bigImg").attr("src", projectSrc + "3.PNG");
+                $("#bigImg").attr("src", projectSrc + "3.png");
                 break;
         
             default:
