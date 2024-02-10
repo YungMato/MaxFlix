@@ -65,36 +65,36 @@ var projectsAr = [
         img: "/projects/img/exampleProject8.PNG",
         tags:["C# ","WPF ","Encrypting ","Tag4","Movie","TROLOLOL"]
     },    {
-        name: "Password-Manager",
-        match: "96% Match",
-        date: "2021",
-        descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/img/exampleProject9.PNG",
-        tags:["C# ","WPF ","Encrypting ","Tag4 "]
+        name: "Video Game: Sidescroller",
+        match: "77% Match",
+        date: "???",
+        descr: "Work in Progress: Sidescroller Hack and Slay in Pixel design",
+        img: "/projects/img/project8_1.PNG",
+        tags:["C# ","Unity","GameDev","Animation","Pixelart"]
     },
     {
-        name: "Password-Manager NR4",
+        name: "Video Game: Tower Defense",
         match: "96% Match",
-        date: "2021",
-        descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/img/exampleProject10.PNG",
-        tags:["C# ","WPF ","Encrypting ","Tag4 "]
+        date: "???",
+        descr: "Work in Progress: Tower Defense game",
+        img: "/projects/img/project9_1.PNG",
+        tags:["C# ","Unity","GameDev"]
     },    
     {
-        name: "Password-Manager NR3",
-        match: "96% Match",
-        date: "2021",
-        descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/img/exampleProject11.PNG",
-        tags:["C# ","WPF ","Encrypting ","Tag4 "]
+        name: "Website: Recipes",
+        match: "99% Match",
+        date: "???",
+        descr: "Work in Progress: Website for recipes",
+        img: "/projects/img/project10_1.PNG",
+        tags:["HTML","CSS","Javascript","Jquery","NodeJS"]
     },
     {
-        name: "Password-Manager NR4",
-        match: "96% Match",
-        date: "2021",
-        descr: "Etwas Text damit sich die div ein bisschen mehr füllt und allesa ein bisschen mehr in die Mitte gerückt wird. Hahahahahah ist schon funny wie das hier läuft",
-        img: "/projects/img/exampleProject12.PNG",
-        tags:["C# ","WPF ","Encrypting ","Tag4 "]
+        name: "More Projects coming soon...",
+        match: "100% Match",
+        date: "???",
+        descr: "",
+        img: "/projects/img/project11_1.PNG",
+        tags:[]
     } 
 ];
 
