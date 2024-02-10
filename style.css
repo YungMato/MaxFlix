@@ -1,3 +1,58 @@
+@media only screen and (min-device-width: 480px){
+
+    .card {
+    width: 360px !important;
+    height: 202.5px !important;
+    margin-bottom: 10px !important;
+    }
+
+    .card:hover {
+
+        transform: scale(100%) !important;
+    }
+    
+    .navIcon{
+        margin-right: 10px;
+    }
+    
+    #highlight{
+        height: 300px !important;
+        padding-top: 30px;
+    }
+    
+    #highlightText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #highlight div{
+        font-size: 80% !important;
+    }
+    
+    
+    #highlightImg{
+        height: 280px !important;
+    }
+
+    #profileWrapper{
+        padding: 10px 10px !important;
+    }
+
+    .leftBracket{
+        width: 150px !important;
+    }
+
+    #picSlider img {
+        height: 80px !important;
+    }
+
+    #bigLogo{
+        margin-right: 10px !important;
+    }
+
+}
+
 @font-face {
     font-family: AlteHaas;
     src: url(/fonts/Fonts/altehaasgroteskregular.ttf);
@@ -173,6 +228,9 @@ body {
 
 .row{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cardRow{
@@ -182,25 +240,21 @@ body {
     align-items: center;
 
     width: 100%;
+    min-width: 650px;
 }
 
 .card{
-    flex-grow: 1;
-    height: 20vh;
+    height: 200px;
+    width: 400px;
     margin-right: 5px;
     margin-bottom: 5px;
-    max-width: 550px;
-    min-width: 250px;
+    transition: 0.3s;
 }
 
 .card:hover{
     cursor: pointer;
     transform: scale(130%);
-}
-
-#ad img{
-    border: solid white 0.5px;
-    border-radius: 3%;
+    transition: 0.3s;
 }
 
 .card img{
@@ -209,6 +263,13 @@ body {
 
     border-radius: 3%;
 }
+
+#ad img{
+    border: solid white 0.5px;
+    border-radius: 3%;
+}
+
+
 
 .header{
     margin-bottom: 2vh;
@@ -228,7 +289,6 @@ hr{
 
 #profileWrapper{
     padding: 5vh 25vw;
-    min-width: 650px;
 }
 
 .bracket{
@@ -237,7 +297,6 @@ hr{
 
 .leftBracket {
     width: 25vw;
-    min-width: 150px;
     height: 100%;
 
     color: rgb(207, 195, 195);
