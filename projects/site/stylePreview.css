@@ -1,17 +1,22 @@
-@media only screen and (min-device-width: 480px){
+@media only screen and (max-device-width: 480px){
 
 
+    #websiteWrapper{
+        height: 500px !important;
+    }
     #watchImg{
         top: 20% !important;
     }
 
     #bigImg{
-        width: 390px !important;
-        height: 219px !important;
+        width: 350px !important;
+        height: 197px !important;
     }
 
     #preview{
         width: 100% !important;
+        height: 100px !important;
+        padding: 0 !important;
     }
 
     .previewPic{
@@ -102,7 +107,7 @@ body {
 
 #preview {
     background-color: rgb(19, 18, 18);
-    padding: 5px 0;
+    padding: 5px 0 80px 0;
     width: 100%;
     display: flex;
     justify-content: center;
