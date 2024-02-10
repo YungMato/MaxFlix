@@ -67,9 +67,17 @@ body {
     height: 6vh;
 }
 
+#profileImg:hover{
+    cursor: pointer;
+}
+
 #bigLogo{
     height: 4vh;
     margin-right: 50px;
+}
+
+#bigLogo:hover{
+    cursor: pointer;
 }
 
 .highlight{
@@ -210,3 +218,72 @@ body {
     padding: 0 5vw;
 }
 
+hr{
+    border: none;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(40, 37, 37);
+    margin: 15px 0 15px 0;
+}
+
+#profileWrapper{
+    padding: 5vh 25vw;
+    min-width: 650px;
+}
+
+.bracket{
+    display: flex;
+}
+
+.leftBracket {
+    width: 25vw;
+    min-width: 150px;
+    height: 100%;
+
+    color: rgb(207, 195, 195);
+}
+
+.rightBracket{
+    width: 100%;
+    font-size: 1.8vh;
+    line-height: 3vh;
+}
+
+.innerBracket{
+    display: flex;
+}
+
+.innerBracket div{
+    width: 50%;
+}
+
+.infoRight{
+    text-align: right;
+}
+
+#pictureBracket{
+    text-align: center;
+    width: 100%;
+}
+
+#pictureBracket img {
+    border: solid white;
+    margin: 10px 0;
+    height: 20vh;
+}
+
+#pictureBracket p {
+    color: rgb(207, 195, 195);
+    text-align: left;
+}
+
+#picSlider img{
+    border: solid rgb(65, 60, 60);
+    height: 10vh;
+    margin: 0 5px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 163, 233);
+}

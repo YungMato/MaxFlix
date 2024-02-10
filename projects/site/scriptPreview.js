@@ -28,6 +28,12 @@ function setUpButtons(){
                 break;
         }
     });
+
+    console.log($(".menuIconImg").eq(1));
+    $(".menuIconImg").eq(1).on("click", function(){
+        window.location.href = "mailto:max.ellermann@live.de?subject=Subject&body=Please%20give%20a%20brief%20description%20of%20the%20bug";
+    });
+
 }
 
 function checkSrc(src){

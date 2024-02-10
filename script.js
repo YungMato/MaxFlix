@@ -112,6 +112,15 @@ function setUpEvents(){
     $(".card").on("click", function(event) {
         highlightItem($(event)[0].target.attributes.value.nodeValue);
     });
+
+    $("#bigLogo").on("click", function() {
+        window.location.href = "index.html";
+    });
+
+    $("#profileImg").on("click", function() {
+        window.location.href = "profile.html";
+    });
+
 }
 
 function loadProjects(){

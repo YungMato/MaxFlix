@@ -69,6 +69,13 @@ body {
     content:url("../../img/flagge_red.png");
 }
 
+#tooltip{
+    position: absolute;
+    background-color: rgb(19, 18, 18);
+    width: 10vw;
+    height: 5vh;
+}
+
 
 
 #preview {
